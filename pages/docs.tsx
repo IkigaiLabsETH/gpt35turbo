@@ -82,7 +82,7 @@ const DocsPage: NextPage<Props> = ({ children, meta: pageMeta }: Props) => {
 
         <main className="flex flex-col items-center justify-center flex-1 w-full min-h-screen px-4 py-2 mx-auto mt-12 text-center sm:mt-20">
           <h1 className="max-w-xl text-2xl font-bold sm:text-4xl">
-            Ask me anything<sup>*</sup>  about web development!
+            Ask me anything<sup>*</sup>  about ikigAI Labs or LiveTheLifeTV!
           </h1>
           <div className="w-full max-w-xl">
             <textarea
@@ -188,13 +188,10 @@ const DocsPage: NextPage<Props> = ({ children, meta: pageMeta }: Props) => {
           </ResizablePanel>
 
           <div className="max-w-xl text-xs">
-            <p><sup>*</sup>Actually, I'm currently only trained on the following documentation:</p>
+            <p><sup>*</sup>I'm currently only trained on the following:</p>
             <ul>
-              <li><a target="_blank" href="">https://beta.reactjs.org/</a></li>
-              <li><a target="_blank" href="">https://supabase.com/docs</a></li>
-              <li><a target="_blank" href="">https://tailwindcss.com/docs</a></li>
-              <li><a target="_blank" href="">https://nextjs.org/docs</a></li>
-              <li><a target="_blank" href="">https://beta.nextjs.org/docs</a></li>
+              <li><a target="_blank" href="">https://livethelife.tv/</a></li>
+              <li><a target="_blank" href="">https://ikigailabs.xyz</a></li>
             </ul>
             </div>
 
