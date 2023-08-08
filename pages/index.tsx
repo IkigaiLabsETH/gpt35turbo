@@ -11,7 +11,7 @@ const HomePage: NextPage = () => {
           ikigAI GPT-3.5 Turbo
         </h1>
         <ul className="mt-10 mb-6 text-xs sm:text-sm text-slate-400">
-          <li><Link href="/embeddings" >Create Embeddings</Link></li>
+          <li><Link href="/embeddings" >Feed the AI with URLs</Link></li>
           <li><Link href="/docs" >Search</Link></li>
 
         </ul>
