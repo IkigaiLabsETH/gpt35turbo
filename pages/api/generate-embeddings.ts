@@ -43,10 +43,6 @@ export default async function handle(
 
       const [{ embedding }] = embeddingData.data;
       console.log("embedding:" + embedding);
-      
-      if (!embeddingResponse.ok) {
-        throw new Error('Network response was not ok');
-    }
 
       // In production we should handle possible errors
       try {
